@@ -1,4 +1,11 @@
-header{
-    background-color: #4D3CB9;
-    color: white;
-}
+*{margin: 0; padding: 0;}
+.Cabeçalho{display: flex; justify-content: space-around; align-items: center; font-size: 10mm;}
+.Corpo{ display: flex;}
+header{background-color: #4D3CB9; color: white; display: flex; justify-content: center; padding: 24px;}
+.Coruja{ width: 15mm;}
+body{display: block;background-color: #4A67CB;color: white;}
+.Corpo-Resumo{ width: 100%;}
+.Foto-pessoal{width: 30mm;}
+.Img-Professor{width: 100mm;}
+.Lattes{width: 30mm; align-items: left;}
+.Cidades{align-items: flex-end;}
